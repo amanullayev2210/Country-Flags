@@ -82,14 +82,6 @@ a {
     width: 100%;
 }
 
-.darkmode {
-    background-color: red;
-}
-
-
-.darkmode_img {
-    display: none;
-}
 
 .site_lightmode_button {
     max-width: 83px;
@@ -144,6 +136,7 @@ a {
     border: none;
     border-radius: 5px;
     padding: 18px 77px 18px 24px;
+    background-color: var(--bglight_color);
 }
 
 .form_select:active {
@@ -209,6 +202,10 @@ a {
         gap: 40px;
     }
 
+    .site_lightmode {
+        gap: auto;
+    }
+
     .card_list {
         flex-wrap: wrap;
         justify-content: center;
@@ -218,6 +215,11 @@ a {
 
 
 @media only screen and (max-width: 781px) {
+
+
+    .site_lightmode {
+        gap: auto;
+    }
 
     .form {
         justify-content: space-between !important;
@@ -237,6 +239,11 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+
+    .site_lightmode {
+        gap: auto;
+    }
+
     .form {
         flex-direction: column;
         justify-content: center;
@@ -246,6 +253,10 @@ a {
 }
 
 @media only screen and (max-width: 457px) {
+
+    .site_lightmode {
+        gap: auto;
+    }
 
     .site_wrapper_tittle {
         font-size: 20px;
@@ -266,6 +277,10 @@ a {
 
     .site_wrapper {
         padding-block: 30px;
+    }
+
+    .site_lightmode {
+        gap: auto;
     }
 
     .site_wrapper_tittle {
