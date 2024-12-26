@@ -205,9 +205,6 @@ a {
         gap: 40px;
     }
 
-    .site_lightmode {
-        gap: auto;
-    }
 
     .card_list {
         flex-wrap: wrap;
@@ -218,12 +215,6 @@ a {
 
 
 @media only screen and (max-width: 781px) {
-
-
-    .site_lightmode {
-        gap: auto;
-    }
-
     .form {
         justify-content: space-between !important;
         gap: 0;
@@ -243,12 +234,9 @@ a {
 @media only screen and (max-width: 767px) {
 
     .site_wrapper {
-        padding-block: 32px;
+        padding-block: 30px;
     }
 
-    .site_lightmode {
-        gap: auto;
-    }
 
     .form {
         flex-direction: column;
@@ -264,9 +252,6 @@ a {
         padding-block: 32px;
     }
 
-    .site_lightmode {
-        gap: auto;
-    }
 
     .site_wrapper_tittle {
         font-size: 20px;
@@ -294,9 +279,6 @@ a {
         padding-block: 32px;
     }
 
-    .site_lightmode {
-        gap: auto;
-    }
 
     .site_wrapper_tittle {
         max-width: 343px;
