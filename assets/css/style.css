@@ -28,7 +28,7 @@ body {
     max-width: 1280px;
     width: 100%;
     margin-inline: auto;
-    padding-inline: 16px;
+    padding-inline: 16px;     
 }
 
 h1,
@@ -184,6 +184,9 @@ a {
     font-size: 14px;
     line-height: 16px;
     text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
 }
 
 .card_span {
@@ -239,6 +242,9 @@ a {
 
 @media only screen and (max-width: 767px) {
 
+    .site_wrapper {
+        padding-block: 32px;
+    }
 
     .site_lightmode {
         gap: auto;
@@ -254,6 +260,10 @@ a {
 
 @media only screen and (max-width: 457px) {
 
+    .site_wrapper {
+        padding-block: 32px;
+    }
+
     .site_lightmode {
         gap: auto;
     }
@@ -266,6 +276,11 @@ a {
 
 
 @media only screen and (max-width: 393px) {
+
+    .site_wrapper {
+        padding-block: 32px;
+    }
+
     .site_wrapper_tittle {
         font-size: 16px;
         line-height: 22px;
@@ -276,7 +291,7 @@ a {
 @media only screen and (max-width: 375px) {
 
     .site_wrapper {
-        padding-block: 30px;
+        padding-block: 32px;
     }
 
     .site_lightmode {
