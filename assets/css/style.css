@@ -76,8 +76,8 @@ a {
 
 .site_lightmode {
     display: flex;
-    gap: 10.5px;
     justify-content: center;
+    align-items: center;
     max-width: 125px;
     width: 100%;
 }
@@ -109,25 +109,19 @@ a {
 }
 
 
-.fieldset {
-    max-width: 480px;
-    width: 100%;
-    padding:  19px 270px 19px 32px;
-    background-color: var(--white-color);
-}
-
-.fieldset_wrapper {
-    max-width: 178.5px;
-    width: 100%;
-    display: flex;
-    gap: 24.5px;
-}
 
 .search__input{
+    max-width: 480px;
+    width: 100%;
     border: none;
-    background-color: transparent;
+    padding: 18px 24px 18px 74px;
+    background-image: url("/assets/imgs/icon-search-black.svg");
+    background-repeat: no-repeat;
+    background-position: 32px center;
+    background-size: 18px;
     color: var(--silver-color);
     outline: none;
+    border-radius: 5px;
 }
 
 .form_select {
@@ -139,7 +133,7 @@ a {
     background-color: var(--bglight_color);
 }
 
-.form_select:active {
+.form_select:focus {
     border: none;
 }
 
@@ -202,7 +196,6 @@ a {
 
     .form {
         justify-content: center;
-        gap: 40px;
     }
 
 
@@ -217,7 +210,6 @@ a {
 @media only screen and (max-width: 781px) {
     .form {
         justify-content: space-between !important;
-        gap: 0;
         
     }
     .fieldset {
@@ -242,7 +234,7 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
     }
 }
 
@@ -291,10 +283,7 @@ a {
 
     .form  {
         flex-direction: column;
-    }
-
-    .form_select {
-        margin-top: 40px;
+        gap: 20px;
     }
 
     .card_list {
