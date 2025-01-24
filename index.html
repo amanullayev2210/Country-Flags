@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Country Flags</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Nunito Sans font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./assets/main.js" defer></script>
+    <link rel="shortcut icon" href="./assets/imgs/moon_dark.svg" type="image/x-icon">
 </head>
-<body>
+<body class="body">
     <header class="site_header">
         <div class="container">
             <div class="site_wrapper">
-                <h1 class="site_wrapper_tittle">
+                <a class="site_wrapper_tittle" href="https://theflags-country.vercel.app">
                     Where in the world?
-                </h1>
+                </a>
                 <div class="site_lightmode">
-                <img src="./assets/imgs/moon_light.svg" alt="img">
-                <button class="site_lightmode_button">
-                    Dark Mode
+                    <span class="light_mode"><img src="./assets/imgs/moon_light.svg" alt="img"></span>
+                    <span class="dark_mode"><img src="./assets/imgs/moon_dark.svg" alt="img"></span>
+                <button class="site_lightmode_button" onclick="OnAdd();">
+                    Dark Mode   
                 </button>
                 </div>
             </div>
